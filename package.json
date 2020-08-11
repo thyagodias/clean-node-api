@@ -4,12 +4,14 @@
   "description": "API em NodeJS com Clean Architeture e TDD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc"
+    "test": "jest",
+    "start": "tsc",
+    "test:staged": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^26.0.9",
     "@types/node": "^14.0.27",
     "@typescript-eslint/eslint-plugin": "^3.9.0",
     "@typescript-eslint/parser": "^3.9.0",
@@ -24,8 +26,10 @@
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.0",
     "husky": "^4.2.5",
+    "jest": "^26.3.0",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
+    "ts-jest": "^26.2.0",
     "typescript": "^3.9.7"
   }
 }

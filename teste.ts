@@ -1,3 +1,9 @@
-function teste(a: number, b: number) {
+function teste(a = 'a', b: number) {
   return a + b;
 }
+
+const good = {
+  foo: 3,
+  bar: 4,
+  'data-blah': 5,
+};
